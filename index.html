@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns:fb="https://ogp.me/ns/fb#" lang="en">
+  <head>
+    <title>Reforged - A revival of Guilded</title>
+    <meta
+      id="viewport"
+      name="viewport"
+      charset="utf-8"
+      content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <meta name="keywords" content="Reforged,Chat,Chat bots,Servers,LFG,LFM,Overwatch,CSGO,Fortnite,FFXIV,esports"/>
+    <meta name="description" content="Reforged upgrades your group chat and equips your server with integrated event calendars, forums, and more – 100% free."/>
+
+    <meta name="robots" content="max-image-preview:large" />
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" href="/asset/Favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/asset/Favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/asset/Favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/asset/Favicons/favicon-128x128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="/asset/Favicons/favicon-196x196.png" sizes="196x196" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="/asset/Favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="/asset/Favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="/asset/Favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="/asset/Favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="/asset/Favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="/asset/Favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="/asset/Favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="/asset/Favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="180x180"
+      href="/asset/Favicons/apple-touch-icon.png"
+    />
+
+    <meta name="msapplication-TileColor" content="#f5c400" />
+    <meta name="msapplication-TileImage" content="/asset/Icons/ms-icon-144x144.png?v=3" />
+    <meta name="msapplication-config" content="/asset/Favicons/browserconfig.xml" />
+
+    <link rel="manifest" href="/asset/Icons/manifest.json?v=6" />
+
+    <!-- OG tags -->
+    <meta property="og:image" content="/asset/OpenGraph/GuildedLarge.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta
+      property="og:description"
+      content="Reforged upgrades your group chat and equips your server with integrated event calendars, forums, and more – 100% free."
+    />
+    <meta property="og:site_name" content="Reforged - Chat for Gaming Communities" />
+    <meta property="og:type" content="website" />
+
+    <!-- crossorigin is needed for any assets loaded in anonymous mode -->
+    <link rel="preload" href="/fonts/BuilderSans-Light.woff2" as="font" crossorigin />
+    <link rel="preload" href="/fonts/BuilderSans-Regular.woff2" as="font" crossorigin />
+    <link rel="preload" href="/fonts/BuilderSans-Bold.woff2" as="font" crossorigin />
+    <link rel="preload" href="/fonts/BuilderSans-ExtraBold.woff2" as="font" crossorigin />
+    <link rel="preload" href="/fonts/BuilderMono-Regular.woff2" as="font" crossorigin />
+
+    <script>
+      // Fixes an issue in 105+ where an added event handler changes slate-react behavior
+      delete HTMLElement.prototype.onbeforeinput;
+    </script>
+  </head>
+
+  <body>
+    <div id="app">
+      <style>
+        body {
+          text-align: center;
+          font-family: 'Builder Sans', Helvetica, Arial, sans-serif;
+          color: #eeeff0;
+          background: #373943;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        p {
+          display: block;
+          font-size: 16px;
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+
+        h1 {
+          font-size: 22px;
+          line-height: 28px;
+          color: white;
+          font-weight: bold;
+        }
+
+        h2 {
+          font-size: 15px;
+          line-height: 22px;
+        }
+
+        #fallback,
+        #no-js-message {
+          /*display: none;*/
+        }
+      </style>
+      <div style="width: 100%; height: 100%;">
+        <!-- <div id="fallback" width="100%" height="100%" style="margin-top: 9vh;"> -->
+          <div id="no-js-message">
+            <h1>
+              Reforged is coming soon.
+            </h1>
+            <h2>
+              Experience a revival of Guilded.
+            </h2>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <style>
+      body {
+        font-family: 'Builder Sans', Arial, sans-serif;
+        background-color: #1e2025;
+      }
+
+      @font-face {
+        font-family: 'Builder Sans';
+        src: url('/fonts/BuilderSans-Light.woff2') format('woff2'),
+          url('/fonts/BuilderSans-Light.woff') format('woff');
+        font-weight: 300; /* light */
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Builder Sans';
+        src: url('/fonts/BuilderSans-Regular.woff2') format('woff2'),
+          url('/fonts/BuilderSans-Regular.woff') format('woff');
+        font-weight: 400; /* normal */
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Builder Sans';
+        src: url('/fonts/BuilderSans-Bold.woff2') format('woff2'),
+          url('/fonts/BuilderSans-Bold.woff') format('woff');
+        font-weight: 700; /* bold */
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Builder Sans Black';
+        src: url('/fonts/BuilderSans-ExtraBold.woff2') format('woff2'),
+          url('/fonts/BuilderSans-ExtraBold.woff') format('woff');
+        font-weight: 900; /* extra bold */
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Builder Mono';
+        src: url('/fonts/BuilderMono-Regular.woff2') format('woff2'),
+          url('/fonts/BuilderMono-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: monospace;
+        font-display: swap;
+      }
+
+      #loading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: calc(50vh - 35px);
+      }
+    </style>
+    <noscript>
+      <style>
+        #loading {
+          display: none;
+        }
+
+        #fallback,
+        #no-js-message {
+          display: block;
+        }
+
+        #unsupported-browser-message {
+          display: none;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>
